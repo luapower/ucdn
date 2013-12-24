@@ -1,3 +1,3 @@
-gcc -shared -o ../../bin/ucdn.dll -s -O3 ucdn.c
+gcc -shared -o ../../bin/mingw32/ucdn.dll -s -O3 ucdn.c
 
-cd ../.. && linux/bin/luajit ucdn.lua
+#cd ../.. && bin/mingw32/luajit ucdn.lua
