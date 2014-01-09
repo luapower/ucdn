@@ -1,7 +1,7 @@
 ---
 project:  ucdn
 tagline:  Unicode Database and Normalization
-category: Text Rendering
+category: Text Processing
 ---
 
 ## `local ucdn = require'ucdn'`
