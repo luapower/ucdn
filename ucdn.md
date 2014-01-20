@@ -1,6 +1,6 @@
 ---
-project:  ucdn
-tagline:  Unicode Database and Normalization
+project: ucdn
+tagline: unicode database and normalization
 ---
 
 ## `local ucdn = require'ucdn'`
