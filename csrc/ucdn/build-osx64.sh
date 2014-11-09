@@ -1,2 +1,2 @@
-#TODO: remove the MINGW32 hack
-gcc -arch x86_64 -O2 ucdn.c -shared -install_name @loader_path/libucdn.dylib -o ../../bin/osx64/libucdn.dylib -D__MINGW32__
+P=osx64 C="-arch x86_64" L="-arch x86_64 -install_name @loader_path/libucdn.dylib" \
+	D=libucdn.dylib A=libucdn.a ./build.sh

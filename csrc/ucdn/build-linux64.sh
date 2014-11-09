@@ -1,2 +1,1 @@
-#TODO: remove the MINGW32 hack
-gcc -O2 -s -static-libgcc -fPIC ucdn.c -shared -o ../../bin/linux64/libucdn.so -D__MINGW32__
+P=linux64 C=-fPIC L="-s -static-libgcc" D=libucdn.so A=libucdn.a ./build.sh

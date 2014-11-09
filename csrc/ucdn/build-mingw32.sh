@@ -1,1 +1,1 @@
-gcc -O2 -s -static-libgcc ucdn.c -shared -o ../../bin/mingw32/ucdn.dll
+P=mingw32 L="-s -static-libgcc" D=ucdn.dll A=ucdn.a ./build.sh
