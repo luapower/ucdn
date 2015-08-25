@@ -1,5 +1,4 @@
 ---
-project: ucdn
 tagline: unicode database and normalization
 ---
 
